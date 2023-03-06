@@ -17,5 +17,10 @@ public class Book {
         return this.publishedDate;
     }
 
-
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setPublishedDate(int publishedDate) {
+        this.publishedDate = publishedDate;
+    }
 }
