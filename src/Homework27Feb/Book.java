@@ -1,8 +1,8 @@
 package Homework27Feb;
 
 public class Book {
-    private String title;
-    private Author author;
+    private final String title;
+    private final Author author;
     private int publishedDate;
 
     public Book (String title, Author author, int publishedDate) {
@@ -19,13 +19,12 @@ public class Book {
     }
 
     public int getPublishedDate() {
+
         return this.publishedDate;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
     public void setPublishedDate(int publishedDate) {
+
         this.publishedDate = publishedDate;
     }
 }
