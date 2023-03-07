@@ -13,6 +13,11 @@ public class Book {
     public String getTitle() {
         return this.title;
     }
+
+    public Author getAuthor () {
+        return author;
+    }
+
     public int getPublishedDate() {
         return this.publishedDate;
     }
