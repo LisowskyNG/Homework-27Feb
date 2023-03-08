@@ -27,4 +27,12 @@ public class Book {
 
         this.publishedDate = publishedDate;
     }
+
+    @Override
+    public String toString() {
+        return author + ". " + title + ". " + publishedDate;
+    }
+
+
+
 }

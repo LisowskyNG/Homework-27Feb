@@ -2,6 +2,7 @@ package Homework27Feb;
 
 import Homework27Feb.Author;
 import Homework27Feb.Book;
+
 public class Main {
     public static void main(String[] args) {
         Author valeriya = new Author("Валерия", "Новодворская");
@@ -28,6 +29,10 @@ public class Main {
         System.out.println(proshanieSlav.getAuthor().getName() +" "+ proshanieSlav.getAuthor().getLastName());
         System.out.println(proshanieSlav.getTitle());
         System.out.println(proshanieSlav.getPublishedDate());
+
+        // System.out.println(valeriya);
+        // System.out.println(proshanieSlav);
     }
+
 
 }
