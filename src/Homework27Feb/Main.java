@@ -30,11 +30,17 @@ public class Main {
         System.out.println(proshanieSlav.getTitle());
         System.out.println(proshanieSlav.getPublishedDate());
 
+        System.out.println();
+
         System.out.println(valeriya);
         System.out.println(proshanieSlav);
 
+        System.out.println();
+
         System.out.println(boris);
         System.out.println(putinItogi);
+
+
     }
 
 
